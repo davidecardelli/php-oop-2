@@ -7,7 +7,7 @@ class FoodProduct extends Product
     private $ingredients;
     private $expiration;
 
-    public function __construct($name, $price, $description, $image, Category $category, $ingredients, $expiration)
+    public function __construct($name, $price, $description, $image, Category $category, array $ingredients, $expiration)
     {
         parent::__construct($name, $price, $description, $image, $category);
         $this->setIngredients($ingredients);

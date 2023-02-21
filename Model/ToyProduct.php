@@ -30,6 +30,11 @@ class ToyProduct extends Product
         return $this->materials;
     }
 
+    public function listMaterials()
+    {
+        return implode(', ', $this->materials);
+    }
+
     public function setMaterials($materials)
     {
         $this->materials = $materials;
