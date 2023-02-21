@@ -61,7 +61,7 @@ class Product
 
     public function setDescription($description)
     {
-        $this->$description = $description;
+        $this->description = $description;
         return $this;
     }
 
@@ -72,7 +72,7 @@ class Product
 
     public function setImage($image)
     {
-        $this->$image = $image;
+        $this->image = $image;
         return $this;
     }
 
@@ -83,7 +83,7 @@ class Product
 
     public function setCategory($category)
     {
-        $this->$category = $category;
+        $this->category = $category;
         return $this;
     }
 }

@@ -21,18 +21,13 @@ class ToyProduct extends Product
 
     public function setColor($color)
     {
-        $this->$color = $color;
+        $this->color = $color;
         return $this;
     }
 
     public function getMaterials()
     {
         return $this->materials;
-    }
-
-    public function listMaterials()
-    {
-        return implode(', ', $this->materials);
     }
 
     public function setMaterials($materials)
